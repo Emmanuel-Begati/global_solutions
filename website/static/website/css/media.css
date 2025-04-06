@@ -602,7 +602,7 @@ h2 {
 }
 
 .navbar-toggle .icon-bar {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .header .logo {
@@ -1032,7 +1032,7 @@ div[class*="column"].fullwidth .element-item, .column-3 .grid .element-item {
 }
 
 .navbar-toggle .icon-bar {
-	background: #f26767;
+	background: #259ebc;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	display: block;
@@ -1118,7 +1118,7 @@ div[class*="column"].fullwidth .element-item, .column-3 .grid .element-item {
 }
 
 .theme-2 .topnav li .accordion-toggle, .theme-4 .topnav li .accordion-toggle {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .topnav li .accordion-toggle:hover, .topnav li .accordion-toggle:active {

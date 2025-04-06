@@ -36,6 +36,8 @@ Last change: 31.03.2017
  @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Oswald:300,400,500,600,700');
  @import "reset.css";
 
+ 
+
 body {
 	background: #fff;
 	color: #6a6a6a;
@@ -147,7 +149,7 @@ body {
 	left: 0;
 	right: 0;
 	margin: auto;
-	background: #f26767;
+	background: #259ebc;
 	height: 5px;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
@@ -159,7 +161,7 @@ body {
 }
 
 .topnav li:hover>a, .topnav li.active>a {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .topnav li.search-btn a {
@@ -210,7 +212,7 @@ body {
 }
 
 .topnav li ul li:hover a, .topnav li ul li.active>a {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff !important;
 }
 
@@ -365,7 +367,7 @@ main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-
 }
 
 .home-banner h1 a {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .home-banner h1:after {
@@ -374,7 +376,7 @@ main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-
 	clear: both;
 	width: 167px;
 	height: 5px;
-	background: #f26767;
+	background: #259ebc;
 	margin: 26px auto 46px;
 }
 
@@ -415,7 +417,7 @@ main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-
 }
 
 .home-banner .carousel-control:hover {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -429,13 +431,13 @@ main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-
 }
 
 .home-banner .carousel-indicators .active {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .btn-color, .btn-transparent {
-	border: solid 1px #f26767;
+	border: solid 1px #259ebc;
 	background: transparent;
-	color: #f26767;
+	color: #259ebc;
 	display: inline-block;
 	font-weight: 400;
 	line-height: 4.2;
@@ -452,7 +454,7 @@ main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-
 }
 
 .home-banner .btn-color {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
  [class*="btn-"] {
@@ -465,7 +467,7 @@ overflow:hidden;
 }
 
 [class*="btn-"]:before {
-	background: #f26767;
+	background: #259ebc;
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -502,17 +504,17 @@ overflow:hidden;
 }
 
 .portfolio-info .btn-color:hover {
-	border-color: #f26767;
+	border-color: #259ebc;
 	color: #fff;
 }
 
 .btn-buy-now:before, a.btn-readmore:before {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .btn-color:hover, .btn-color:focus, .btn-transparent:hover, .btn-transparent:focus {
 	background: #fff;
-	color: #f26767;
+	color: #259ebc;
 }
 
 .btn-color:hover, .btn-color:focus {
@@ -663,7 +665,7 @@ overflow:hidden;
 }
 
 .notes-and-skills .panel-group .panel-title a:hover, .notes-and-skills .panel-group .panel-title a[aria-expanded="true"] {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .notes-and-skills .panel-group .panel-title a:after {
@@ -679,7 +681,7 @@ overflow:hidden;
 
 .notes-and-skills .panel-group .panel-title a[aria-expanded="true"]:after {
 	content: "\f00d";
-	color: #f26767;
+	color: #259ebc;
 }
 
 .notes-and-skills .panel-group .panel-body {
@@ -721,7 +723,7 @@ overflow:hidden;
 }
 
 .progress-bar {
-	background-color: #f26767;
+	background-color: #259ebc;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	position: relative;
@@ -743,7 +745,7 @@ overflow:hidden;
 	height: 0;
 	border-style: solid;
 	border-width: 10px 9.5px 0 9.5px;
-	border-color: #f26767 transparent transparent transparent;
+	border-color: #259ebc transparent transparent transparent;
 	bottom: -18px;
 	left: 0;
 	right: 0;
@@ -789,7 +791,7 @@ overflow:hidden;
 }
 
 #big .owl-nav>div:hover {
-	background: #f26767;
+	background: #259ebc;
 }
 
 #big .owl-prev {
@@ -822,13 +824,13 @@ overflow:hidden;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f26767), color-stop(100%, #454545));
-	background: -webkit-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -o-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -ms-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: linear-gradient(224deg, #454545 0%, #f26767 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#f26767', GradientType=0 );
+	background: -moz-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #259ebc), color-stop(100%, #454545));
+	background: -webkit-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -o-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -ms-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: linear-gradient(224deg, #454545 0%, #259ebc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#259ebc', GradientType=0 );
 	opacity: 0;
 	-webkit-transition: .2s opacity ease-in-out;
 	transition: .2s opacity ease-in-out;
@@ -946,7 +948,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 #testimonials .owl-nav>div:hover {
-	background: #f26767;
+	background: #259ebc;
 }
 
 /** Our Team css **/
@@ -1035,7 +1037,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .team-box .team-overlay cite {
-	color: #f26767;
+	color: #259ebc;
 	display: block;
 	font-size: 14px;
 	font-weight: normal;
@@ -1062,7 +1064,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .team-box .team-overlay .social-links a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 /** Our Clients css **/
@@ -1095,7 +1097,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .our-clients-wrapper .owl-carousel figure:hover {
-	border-color: #f26767;
+	border-color: #259ebc;
 }
 
 .our-clients-wrapper .owl-carousel figure img {
@@ -1123,7 +1125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .our-clients-wrapper .owl-carousel .owl-dots>div.active, .our-clients-wrapper .owl-carousel .owl-dots>div:hover {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .our-clients-wrapper .owl-carousel .owl-dots.disabled {
@@ -1153,7 +1155,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .our-clients-wrapper .owl-carousel .owl-nav>div:hover {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -1213,7 +1215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .pricing-plans .price-plan h3:after {
-	background: #f26767;
+	background: #259ebc;
 	bottom: 0;
 	content: "";
 	height: 4px;
@@ -1247,7 +1249,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .pricing-plans .price-plan li:before {
-	color: #f59696;
+	color: #359fc1;
 	content: "\f05d";
 	font: normal normal normal 14px/1 FontAwesome;
 	left: 0;
@@ -1268,11 +1270,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .pricing-plans .price-plan a.btn-buy-now:hover {
-	border-color: #f26767;
+	border-color: #259ebc;
 }
 
 .pricing-plans .price-plan.premium .pricing-hdr {
-	background: #f26767;
+	background: #259ebc;
 	border: 0;
 	position: relative;
 }
@@ -1283,7 +1285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .pricing-plans .price-plan.premium .pricing-hdr:after {
-	background: #f26767;
+	background: #259ebc;
 	content: "";
 	height: 100%;
 	left: -100px;
@@ -1344,7 +1346,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .best-offers-wrapper .play-btn a:hover svg {
-	fill: #f26767;
+	fill: #259ebc;
 }
 
 /** Blog css **/
@@ -1412,7 +1414,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .blogs-nav a:hover {
-	background: #f26767
+	background: #259ebc
 }
 
 .blogs-nav a.prev-btn {
@@ -1443,13 +1445,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(226deg, #454545 0%, #f26767 100%); /* ff3.6+ */
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f26767), color-stop(100%, #454545)); /* safari4+,chrome */
-	background: -webkit-linear-gradient(226deg, #454545 0%, #f26767 100%); /* safari5.1+,chrome10+ */
-	background: -o-linear-gradient(226deg, #454545 0%, #f26767 100%); /* opera 11.10+ */
-	background: -ms-linear-gradient(226deg, #454545 0%, #f26767 100%); /* ie10+ */
-	background: linear-gradient(224deg, #454545 0%, #f26767 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#f26767', GradientType=0 ); /* ie6-9 */
+	background: -moz-linear-gradient(226deg, #454545 0%, #259ebc 100%); /* ff3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #259ebc), color-stop(100%, #454545)); /* safari4+,chrome */
+	background: -webkit-linear-gradient(226deg, #454545 0%, #259ebc 100%); /* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(226deg, #454545 0%, #259ebc 100%); /* opera 11.10+ */
+	background: -ms-linear-gradient(226deg, #454545 0%, #259ebc 100%); /* ie10+ */
+	background: linear-gradient(224deg, #454545 0%, #259ebc 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#259ebc', GradientType=0 ); /* ie6-9 */
 	opacity: 0;
 	-webkit-transition: .2s opacity ease-in-out;
 	transition: .2s opacity ease-in-out;
@@ -1482,7 +1484,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .blogbox h3 a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .blogbox cite {
@@ -1494,7 +1496,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .blogbox cite strong {
-	color: #f26767;
+	color: #259ebc;
 	font-weight: normal;
 }
 
@@ -1603,8 +1605,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .contact-wrapper .contact-form .btn-submit {
-	background: #f26767;
-	border: 1px solid #f26767;
+	background: #259ebc;
+	border: 1px solid #259ebc;
 	color: #fff;
 	display: block;
 	height: 60px;
@@ -1643,7 +1645,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .contact-info-bar p a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .contact-info-bar .address-block, .contact-info-bar .phone-block, .contact-info-bar .email-block {
@@ -1711,7 +1713,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .footer a.scrolltop:hover {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .footer .footer-logo {
@@ -1732,7 +1734,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .footer .footlinks a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .footer .footlinks a + a {
@@ -1750,7 +1752,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .footer .social-links a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .footer p {
@@ -1801,7 +1803,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	display: block;
 	width: 70px;
 	height: 3px;
-	background: #f26767;
+	background: #259ebc;
 	margin: 8px 0 25px;
 }
 
@@ -1842,7 +1844,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .footer.footer-v2 ul li a:hover, .footer.footer-v2 ul li a:focus {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .footer.footer-v2 ul li cite {
@@ -1906,7 +1908,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .inner-sub-header h1:after {
 	content: "";
-	background: #f26767;
+	background: #259ebc;
 	height: 5px;
 	display: block;
 	position: absolute;
@@ -1917,7 +1919,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .inner-sub-header h1 strong {
-	color: #f26767;
+	color: #259ebc;
 	font-weight: bold;
 }
 
@@ -2002,7 +2004,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .our-team-wrapper.version-2 .team-box figcaption cite {
-	color: #f26767;
+	color: #259ebc;
 	display: block;
 	font-family: 'Merriweather', serif;
 	font-size: 14px;
@@ -2048,13 +2050,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .our-team-wrapper.version-2 .team-box .social-links a:hover {
 	background: #fff;
-	color: #f26767;
+	color: #259ebc;
 }
 
 /** Buy Khamu css **/
 
 .buy-khamu-wrapper {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 	display: block;
 	padding: 100px 0;
@@ -2130,7 +2132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .buy-khamu-wrapper a.buy-now-btn:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .buy-khamu-wrapper a.buy-now-btn:hover:before {
@@ -2140,7 +2142,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .who-we-are {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 	padding: 100px 0;
 }
@@ -2160,7 +2162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .learn-more-link:hover, .learn-more-link:focus {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .who-we-are a.learn-more-link {
@@ -2203,7 +2205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .trigger-items ul li button.is-checked {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -2224,7 +2226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	float: left;
 	width: 25%;
 	height: 270px;
-	background-color: #f26767;
+	background-color: #259ebc;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -2397,7 +2399,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .blogs-wrapper .blogs-sidebar h3:after {
-	background: #f26767;
+	background: #259ebc;
 	content: "";
 	height: 3px;
 	position: absolute;
@@ -2450,13 +2452,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f26767), color-stop(100%, #454545));
-	background: -webkit-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -o-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -ms-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: linear-gradient(224deg, #454545 0%, #f26767 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#f26767', GradientType=0 );
+	background: -moz-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #259ebc), color-stop(100%, #454545));
+	background: -webkit-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -o-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -ms-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: linear-gradient(224deg, #454545 0%, #259ebc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#259ebc', GradientType=0 );
 	opacity: 0;
 	-webkit-transition: .2s opacity ease-in-out;
 	transition: .2s opacity ease-in-out;
@@ -2488,7 +2490,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .recent-posts-div .post-description h4 a:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .recent-posts-div .post-description cite {
@@ -2526,7 +2528,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .post-categories li:hover a, .post-categories li:hover a span {
-	color: #f26767;
+	color: #259ebc;
 }
 
 /** Newsletter css **/
@@ -2549,9 +2551,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .newsletter-signup .btn-submit {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
-	border: 1px solid #f26767;
+	border: 1px solid #259ebc;
 	height: 45px;
 	width: 100%;
 	transition: all 0.3s ease;
@@ -2584,7 +2586,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .follow-us a:hover {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -2603,7 +2605,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .tags-cloud a:hover {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -2653,7 +2655,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .pagination-div li:hover a, .pagination-div li.current a {
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -2695,8 +2697,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .blog-actions a.mark-fav:hover, .blog-actions a.share-btn:hover, .blog-actions a.btn-readmore:hover {
-	background: #f26767;
-	border-color: #f26767;
+	background: #259ebc;
+	border-color: #259ebc;
 	color: #fff;
 }
 
@@ -2721,7 +2723,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .pricing-tagline {
 	padding: 60px 0;
-	background: #f26767;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -2779,7 +2781,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	line-height: 23px;
 	text-align: center;
 	width: 25px;
-	background: #f26767;
+	background: #259ebc;
 	border-radius: 50%;
 	color: #fff;
 	display: block;
@@ -2798,7 +2800,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .faq-wrapper .panel-title a, .faq-wrapper .panel-title a.collapsed:hover {
-	color: #f26767;
+	color: #259ebc;
 }
 
 .faq-wrapper .panel-body {
@@ -2898,7 +2900,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .portfolio-details .portfolio-details-slider .owl-nav>div:hover {
-	background: #f26767
+	background: #259ebc
 }
 
 .portfolio-details .more-projects figure {
@@ -2918,13 +2920,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: -moz-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f26767), color-stop(100%, #454545));
-	background: -webkit-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -o-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: -ms-linear-gradient(226deg, #454545 0%, #f26767 100%);
-	background: linear-gradient(224deg, #454545 0%, #f26767 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#f26767', GradientType=0 );
+	background: -moz-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #259ebc), color-stop(100%, #454545));
+	background: -webkit-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -o-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: -ms-linear-gradient(226deg, #454545 0%, #259ebc 100%);
+	background: linear-gradient(224deg, #454545 0%, #259ebc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#259ebc', GradientType=0 );
 	opacity: 0;
 	-webkit-transition: .2s opacity ease-in-out;
 	transition: .2s opacity ease-in-out;
@@ -2945,7 +2947,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .isotope-portfolio.grid-layout #filters {
-	background: #f26767;
+	background: #259ebc;
 	padding: 30px 0;
 	margin: 0 0 48px;
 }
@@ -2956,7 +2958,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 
 .isotope-portfolio.grid-layout #filters button.is-checked {
 	background: #ffffff;
-	color: #f26767;
+	color: #259ebc;
 }
 
 .isotope-portfolio.grid-layout #filters button {
@@ -2968,7 +2970,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 }
 
 .isotope-portfolio .btn-color:hover, .isotope-portfolio .btn-color:focus, .isotope-portfolio .btn-color:active {
-	border-color: #f26767;
+	border-color: #259ebc;
 	color: #fff;
 }
 
@@ -2977,7 +2979,7 @@ div[class*="column"] {
 }
 
 div[class*="column"] #filters {
-	background: #f26767;
+	background: #259ebc;
 	padding: 30px 0;
 	margin: 0 0 48px;
 }
@@ -2988,7 +2990,7 @@ div[class*="column"] #filters ul {
 
 div[class*="column"] #filters button.is-checked {
 	background: #ffffff;
-	color: #f26767;
+	color: #259ebc;
 }
 
 div[class*="column"] #filters button {
@@ -3157,11 +3159,11 @@ div.column-2 .element-item .portfolio-info {
 }
 
 .buy-khamu-wrapper.version-2 h3:before {
-	background: #f26767;
+	background: #259ebc;
 }
 
 .buy-khamu-wrapper.version-2 h3 strong {
-	color: #f26767;
+	color: #259ebc;
 }
 
 /** Our Services Version 1 **/
@@ -3212,8 +3214,8 @@ div.column-2 .element-item .portfolio-info {
 }
 
 .our-services-wrapper.version-1 .overview-block:hover .icons {
-	box-shadow: 0 0 0 1px #f26767;
-	background: #f26767;
+	box-shadow: 0 0 0 1px #259ebc;
+	background: #259ebc;
 	color: #fff;
 }
 
@@ -3265,8 +3267,8 @@ div.column-2 .element-item .portfolio-info {
 }
 
 .our-services-wrapper.version-3 .overview-block:hover .icons {
-	background: #f26767;
-	border-color: #f26767;
+	background: #259ebc;
+	border-color: #259ebc;
 	color: #fff;
 }
 
@@ -3304,7 +3306,7 @@ div.column-2 .element-item .portfolio-info {
 }
 
 .blog-post h5 strong {
-	color: #f26767;
+	color: #259ebc;
 	font-weight: 300;
 }
 
@@ -3330,7 +3332,7 @@ div.column-2 .element-item .portfolio-info {
 	position: absolute;
 	top: 5px;
 	left: 0;
-	color: #f26767;
+	color: #259ebc;
 }
 
 .share-blog-post {
@@ -3360,7 +3362,7 @@ div.column-2 .element-item .portfolio-info {
 .share-blog-post ul li i {
 	position: absolute;
 	top: 0;
-bottom:;
+	bottom:0;
 	left: 0;
 	min-height: 37px;
 	min-width: 37px;
@@ -3437,7 +3439,7 @@ bottom:;
 
 .blog-comment article .blog-comment-text h3 {
 	font-weight: 700;
-	color: #f26767;
+	color: #259ebc;
 }
 
 .blog-comment article .blog-comment-text h3 cite {
@@ -3458,7 +3460,7 @@ bottom:;
 	font-family: 'Merriweather', serif;
 	font-weight: 300;
 	font-size: 13px;
-	color: #f26767;
+	color: #259ebc;
 }
 
 .reply-link:hover, .reply-link:focus {
@@ -3532,8 +3534,8 @@ bottom:;
 }
 
 .comment-form .btn-submit {
-	background: #f26767;
-	border: 1px solid #f26767;
+	background: #259ebc;
+	border: 1px solid #259ebc;
 	color: #fff;
 	display: block;
 	height: 60px;

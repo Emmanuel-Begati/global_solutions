@@ -47,7 +47,7 @@ input, textarea, select {
 }
 
 a {
-	color: #f26767;
+	color: #259ebc;
 	text-decoration: none !important;
 	-ms-transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
@@ -88,7 +88,7 @@ h2 {
 }
 
 h2 strong {
-	color: #f26767;
+	color: #259ebc;
 	font-weight: bold;
 }
 

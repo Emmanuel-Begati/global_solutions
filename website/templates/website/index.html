@@ -20,8 +20,8 @@
                                 <h1>Empowering Your Success</h1>
                                 <p>Personalized mentorship and training for students, researchers, and professionals.</p>
                                 <div class="button-group">
-                                    <a href="#" class="btn-color">Explore Services</a>
-                                    <a href="#" class="btn-transparent">Join Now</a>
+                                    <a href="{% url 'services' %}" class="btn-color">Explore Services</a>
+                                    <a href="#contact" class="btn-transparent">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                                 <p>Personalized mentorship and training for students, researchers, and professionals.</p>
                                 <div class="button-group">
                                     <a href="#" class="btn-color">Explore Services</a>
-                                    <a href="#" class="btn-transparent">Join Now</a>
+                                    <a href="#contact" class="btn-transparent">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@
                                 <p>Personalized mentorship and training for students, researchers, and professionals.</p>
                                 <div class="button-group">
                                     <a href="#" class="btn-color">Explore Services</a>
-                                    <a href="#" class="btn-transparent">Join Now</a>
+                                    <a href="#contact" class="btn-transparent">Join Now</a>
                                 </div>
                             </div>
                         </div>
@@ -73,109 +73,106 @@
         </div>
         <!-- Who we are end -->
         <!-- Services -->
-<div class="overview-wrapper">
-    <div class="container">
-        <h2>OUR SERVICES</h2>
-            {% comment %} <p>We offer specialized mentorship and training to help you excel in your academic and professional endeavors.</p> {% endcomment %}
-        <div class="row">
-            <div class="col-sm-3 overview-block"> 
-                <i class="icons"><span aria-hidden="true" class="icon-book-open"></span></i>
-                <h3>Research Paper Guidance</h3>
-                <p>Literature review assistance, thesis coaching, and citation support (APA, MLA, Chicago, Harvard).</p>
+            <div class="overview-wrapper">
+                <div class="container">
+                    <h2>OUR SERVICES</h2>
+                        {% comment %} <p>We offer specialized mentorship and training to help you excel in your academic and professional endeavors.</p> {% endcomment %}
+                    <div class="row">
+                        <div class="col-sm-3 overview-block"> 
+                            <i class="icons"><span aria-hidden="true" class="icon-book-open"></span></i>
+                            <h3>Research Paper Guidance</h3>
+                            <p>Literature review assistance, thesis coaching, and citation support (APA, MLA, Chicago, Harvard).</p>
+                        </div>
+                        <div class="col-sm-3 overview-block"> 
+                            <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
+                            <h3>Data Analysis & Tools</h3>
+                            <p>SPSS, Stata, R, and Python training, data visualization, and qualitative/quantitative analysis.</p>
+                        </div>
+                        <div class="col-sm-3 overview-block"> 
+                            <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
+                            <h3>Job & Scholarship Support</h3>
+                            <p>CV writing, scholarship proposals, Statement of Purpose coaching, and mock interviews.</p>
+                        </div>
+                        <div class="col-sm-3 overview-block"> 
+                            <i class="icons"><span aria-hidden="true" class="icon-pencil"></span></i>
+                            <h3>Business & Creative Writing</h3>
+                            <p>Business proposals, grant applications, professional emails, and social media content creation.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{% url 'services' %}" class="learn-more-link">Learn more</a>
+
             </div>
-            <div class="col-sm-3 overview-block"> 
-                <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
-                <h3>Data Analysis & Tools</h3>
-                <p>SPSS, Stata, R, and Python training, data visualization, and qualitative/quantitative analysis.</p>
-            </div>
-            <div class="col-sm-3 overview-block"> 
-                <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
-                <h3>Job & Scholarship Support</h3>
-                <p>CV writing, scholarship proposals, Statement of Purpose coaching, and mock interviews.</p>
-            </div>
-            <div class="col-sm-3 overview-block"> 
-                <i class="icons"><span aria-hidden="true" class="icon-pencil"></span></i>
-                <h3>Business & Creative Writing</h3>
-                <p>Business proposals, grant applications, professional emails, and social media content creation.</p>
-            </div>
-        </div>
-    </div>
-</div>
         <!-- Services end-->
         <!-- Notes and Skills -->
-        <div class="notes-and-skills">
-            <div class="container">
-                <h2>NOTES &
-                    <strong>SKILLS</strong>
-                </h2>
-                <p>Lorem Ipsum is simply has been the industry's standrd dummy text everdummy texto the printing and typesetting industry lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <div class="row">
-                    <div class="col-md-6">
-                        <article class="notes imp-notes">
-                            <h3>IMPORTANT NOTES</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla. Nulla
-                                lacinia iaculis nulla.</p>
-                        </article>
-                        <article class="notes love">
-                            <h3>HANDLE WITH LOVE</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla. Nulla
-                                lacinia iaculis nulla.</p>
-                        </article>
-                        <article class="notes graphic">
-                            <h3>GRAPHIC DESIGN</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla. Nulla
-                                lacinia iaculis nulla.</p>
-                        </article>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="progress-bars">
-                            <aside>
-                                <h3>PHOTOGRAPHY</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <span>75%</span>
+            <div class="notes-and-skills">
+                <div class="container">
+                    <h2>WHY CHOOSE <strong>US</strong></h2>
+                    <p>At Globewrite Solutions, we're committed to your academic and professional growth with our unique approach to mentorship and training.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="notes imp-notes">
+                                <h3>TAILORED ONE-ON-ONE MENTORSHIP</h3>
+                                <p>We provide personalized attention tailored to your specific needs, ensuring that you receive the exact guidance required for your academic and professional growth.</p>
+                            </article>
+                            <article class="notes love">
+                                <h3>INDUSTRY EXPERTS AS MENTORS</h3>
+                                <p>Learn from professionals with extensive experience in academic research, data analysis, and professional writing, giving you insights directly from the field.</p>
+                            </article>
+                            <article class="notes graphic">
+                                <h3>HANDS-ON LEARNING</h3>
+                                <p>Our approach focuses on practical, hands-on training in research methodologies and data analysis tools, helping you develop skills you can immediately apply.</p>
+                            </article>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="progress-bars">
+                                <aside>
+                                    <h3>RESEARCH PAPER GUIDANCE</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                            <span>95%</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </aside>
-                            <aside>
-                                <h3>WEB tDESIGN</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                        <span>90%</span>
+                                </aside>
+                                <aside>
+                                    <h3>DATA ANALYSIS & TOOLS</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                            <span>90%</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </aside>
-                            <aside>
-                                <h3>BRANDING & PRINT DESING</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                        <span>60%</span>
+                                </aside>
+                                <aside>
+                                    <h3>JOB & SCHOLARSHIP SUPPORT</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                            <span>85%</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </aside>
-                            <aside>
-                                <h3>ADOBE PHOTOSHOP</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
-                                        <span>78%</span>
+                                </aside>
+                                <aside>
+                                    <h3>BUSINESS & CREATIVE WRITING</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                                            <span>88%</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </aside>
-                            <aside>
-                                <h3>Wordpress</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100">
-                                        <span>69%</span>
+                                </aside>
+                                <aside>
+                                    <h3>ONLINE ACCESSIBILITY</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                            <span>100%</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </aside>
+                                </aside>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <!-- Notes and skills end -->
-        <!-- Our Latest Worsks -->
+        {% comment %} <!-- Our Latest Worsks -->
         <div class="latest-works">
             <div class="container">
                 <h2>OUR LATEST
@@ -222,115 +219,33 @@
                     <img src="{% static 'website/images/latest-work-thumb-08.jpg' %}" alt="latest work thumb"> </div>
             </div>
         </div>
-        <!-- Our Latest Worsks end -->
+        <!-- Our Latest Worsks end --> {% endcomment %}
         <!-- Testimonials -->
         <div class="testimonials-wrapper">
-            <div class="container"> <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <div class="container"> 
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
                 <div id="testimonials" class="owl-carousel">
                     <blockquote class="item">
-                        <p>If you want to write a negative review, don't
-                            <a href="#">tickle</a> me gently with your
-                            <a href="#">aesthetic</a> displeasure about my work. It won’t be helpful for me.</p>
-                        <cite>Scott Lynch</cite>
+                        <p>"Globewrite Solutions played a vital role in helping me refine my research skills during medical school. Through personalized mentorship, I successfully completed my research project, leading to a publication that strengthened my professional profile."</p>
+                        <cite>Daniel - Medical Doctor, Nigeria</cite>
                     </blockquote>
                     <blockquote class="item">
-                        <p>If you want to write a negative review, don't
-                            <a href="#">tickle</a> me gently with your
-                            <a href="#">aesthetic</a> displeasure about my work. It won’t be helpful for me.</p>
-                        <cite>Scott Lynch</cite>
+                        <p>"With the guidance of Globewrite Solutions, I learned the art of academic writing, which helped me excel in my undergraduate research, paving the way for higher academic opportunities."</p>
+                        <cite>Wenny - Graduate in History & Diplomatic Studies, University of Abuja</cite>
                     </blockquote>
                     <blockquote class="item">
-                        <p>If you want to write a negative review, don't
-                            <a href="#">tickle</a> me gently with your
-                            <a href="#">aesthetic</a> displeasure about my work. It won’t be helpful for me.</p>
-                        <cite>Scott Lynch</cite>
+                        <p>"I credit Globewrite Solutions for enhancing my research skills, which played a significant role in my successful completion of a master's degree and ongoing academic research."</p>
+                        <cite>Constantin Sibomana - Masters Graduate & Researcher, University of Rwanda & University of Edinburgh</cite>
                     </blockquote>
                     <blockquote class="item">
-                        <p>If you want to write a negative review, don't
-                            <a href="#">tickle</a> me gently with your
-                            <a href="#">aesthetic</a> displeasure about my work. It won’t be helpful for me.</p>
-                        <cite>Scott Lynch</cite>
+                        <p>"As an academic, I sought research mentorship to improve my grant writing skills. Globewrite Solutions provided the necessary support to advance my academic career and research projects."</p>
+                        <cite>Evariste - Lecturer & Researcher in Medicine and Oral Health, Rwanda</cite>
                     </blockquote>
                 </div>
             </div>
         </div>
         <!-- Testimonials end -->
-        <!-- Our Team -->
-        <div class="our-team-wrapper">
-            <div class="container">
-                <h2>OUR
-                    <strong>TEAM</strong>
-                </h2>
-                <p>Lorem Ipsum is simply has been the industry's stndard dummy text everdummy texto the printing and typesetting industry lorem Ipsum.</p>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-sm-12">
-                        <figure class="team-box">
-                            <img src="{% static 'website/images/team-img-001.jpg' %}" alt="Team">
-                            <figcaption> JHONATHAN DOE </figcaption>
-                            <div class="team-overlay">
-                                <h3>JHONATHAN DOE</h3>
-                                <cite>UI/UX Destigner</cite>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                                    Nulla lacinia iaculis nulla.</p>
-                                <div class="social-links">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-vine" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-sm-12">
-                        <figure class="team-box">
-                            <img src="{% static 'website/images/team-img-002.jpg' %}" alt="Team">
-                            <figcaption>MICK JHONSON</figcaption>
-                            <div class="team-overlay">
-                                <h3>MICK JHONSON</h3>
-                                <cite>UI/UX Developer</cite>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                                    Nulla lacinia iaculis nulla.</p>
-                                <div class="social-links">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-vine" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-sm-12">
-                        <figure class="team-box">
-                            <img src="{% static 'website/images/team-img-003.jpg' %}" alt="Team">
-                            <figcaption>JASON WATSON</figcaption>
-                            <div class="team-overlay">
-                                <h3>JASON WATSON</h3>
-                                <cite>UI/UX Destigner</cite>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum ita pellesque imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
-                                    Nulla lacinia iaculis nulla.</p>
-                                <div class="social-links">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-vine" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Our Team end -->
-        <!-- Our Clients -->
+        {% comment %} <!-- Our Clients -->
         <div class="our-clients-wrapper">
             <div class="container">
                 <h2>OUR
@@ -401,8 +316,8 @@
                 </div>
             </div>
         </div>
-        <!-- Our Clients end -->
-        <!-- Pricing Plan -->
+        <!-- Our Clients end --> {% endcomment %}
+        {% comment %} <!-- Pricing Plan -->
         <div class="pricing-plan-wrapper">
             <div class="container">
                 <h2>OUR
@@ -464,132 +379,9 @@
                 </div>
             </div>
         </div>
-        <!-- Pricing Plan end -->
-        <!-- Best Offers -->
-        <div class="best-offers-wrapper">
-            <div class="container">
-                <h2>WE GIVE
-                    <strong>BEST OFFERS</strong>
-                </h2>
-                <p>Lorem Ipsum is simply has been the industry's stndard dummy text everdummy texto the printing and typesetting everdummy texto industry lorem Ipsum.</p>
-                <div class="play-btn">
-                    <a href="http://www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
-                     
-                        <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" id="Capa_1" x="0px" y="0px"  viewBox="0 0 314.068 314.068" xml:space="preserve">
-<g>
-	<g id="_x33_56._Play">
-		<g>
-			<path d="M293.002,78.53C249.646,3.435,153.618-22.296,78.529,21.068C3.434,64.418-22.298,160.442,21.066,235.534     c43.35,75.095,139.375,100.83,214.465,57.47C310.627,249.639,336.371,153.62,293.002,78.53z M219.834,265.801     c-60.067,34.692-136.894,14.106-171.576-45.973C13.568,159.761,34.161,82.935,94.23,48.26     c60.071-34.69,136.894-14.106,171.578,45.971C300.493,154.307,279.906,231.117,219.834,265.801z M213.555,150.652l-82.214-47.949     c-7.492-4.374-13.535-0.877-13.493,7.789l0.421,95.174c0.038,8.664,6.155,12.191,13.669,7.851l81.585-47.103     C221.029,162.082,221.045,155.026,213.555,150.652z" />
-		</g>
-	</g>
-</g>
-
-</svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Best Offers end -->
-        <!-- Blogs -->
-        <div class="our-blogs-wrapper">
-            <figure class="bottom-image" style="background-image:url({% static 'website/images/blogs-bg-image.jpg' %});"></figure>
-            <div class="container">
-                <h2>OUR
-                    <strong>BLOG</strong>
-                </h2>
-                <p>Lorem Ipsum is simply has been the industry's stndard dummy text everdummy texto the printing and typesetting everdummy texto industry lorem Ipsum.</p>
-                <div class="blogs-container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="blogbox big">
-                                <figure>
-                                    <div id="myBlogCarousel" class="carousel slide" data-ride="carousel">
-                                        <div class="blogs-nav">
-                                            <a class="prev-btn" href="#myBlogCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                                            <a class="next-btn" href="#myBlogCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-                                        </div>
-                                        <div class="carousel-inner" role="listbox">
-                                            <div class="item active">
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">
-                                                    <img src="{% static 'website/images/blog-img-big.jpg' %}" alt="blog">
-                                                </a>
-                                            </div>
-
-                                            <div class="item">
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">
-                                                    <img src="{% static 'website/images/blog-img-big.jpg' %}" alt="blog">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figure>
-                                <div class="blog-content">
-                                    <h3>
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">GOOD DESIGN IS LESS DESIGN</a>
-                                    </h3>
-                                    <cite>Posted by:
-                                        <strong>Jhon Doe</strong> | On:
-                                        <strong>24th Feb, 2017</strong>
-                                    </cite>
-                                    <p>We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome
-                                        websites with minimal design that sells a lot and we are revolutionizing marketing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="blogbox">
-                                <figure>
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">
-                                        <img src="{% static 'website/images/blog-img-02.jpg' %}" alt="blog">
-                                    </a>
-                                </figure>
-                                <div class="blog-content">
-                                    <h3>
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">GOOD DESIGN IS LESS DESIGN</a>
-                                    </h3>
-                                    <cite>Posted by:
-                                        <strong>Jhon Doe</strong> | On:
-                                        <strong>24th Feb, 2017</strong>
-                                    </cite>
-                                    <p>We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome
-                                        websites with minimal design that sells a lot and we are revolutionizing marketing.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="blogbox">
-                                <figure>
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                         <a href="#">
-                                        <img src="{% static 'website/images/blog-img-03.jpg' %}" alt="blog">
-                                    </a>
-                                </figure>
-                                <div class="blog-content">
-                                    <h3>
-                                         {#<a href="{% url 'blog-list-right-sidebar' %}">GOOD DESIGN IS LESS DESIGN</a>#}
-                                        <a href="#">GOOD DESIGN IS LESS DESIGN</a>
-                                    </h3>
-                                    <cite>Posted by:
-                                        <strong>Jhon Doe</strong> | On:
-                                        <strong>24th Feb, 2017</strong>
-                                    </cite>
-                                    <p>We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome websites with minimal design that sells a lot and we are revolutionizing marketing. We build awesome
-                                        websites with minimal design that sells a lot and we are revolutionizing marketing.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blogs end -->
+        <!-- Pricing Plan end --> {% endcomment %}
         <!-- Contact -->
-        <div class="contact-wrapper">
+        <div id="contact" class="contact-wrapper">
             <div class="container">
                 <h2>
                     <strong>CONTACT</strong> US</h2>
@@ -650,9 +442,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="location-map">
-            <div id="map-container"></div>
         </div>
         <!-- Contact end -->
 {% endblock %}

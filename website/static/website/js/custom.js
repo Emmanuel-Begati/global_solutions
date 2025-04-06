@@ -115,6 +115,17 @@ $(document).ready(function() {
     var number = $(this).index();
     bigimage.data('owl.carousel').to(number, 300, true);
   });
+
+  // Add smooth scrolling to all links with hash (#)
+  $('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if (target.length) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top - 100 // Offset by 100px to account for fixed header
+        }, 1000);
+    }
+  });
 });
 
          
@@ -364,4 +375,3 @@ var searchHtml = jQuery('<a href="javascript:void(0);" id="searchToggle" class="
 		});
     });
 	};
- 
