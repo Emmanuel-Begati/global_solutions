@@ -109,4 +109,65 @@
                 </div>
             </div>
         </div>
+
+        <!-- Pricing Plans Section -->
+        <div class="pricing-plan-wrapper">
+            <div class="container">
+                <div class="title-description text-center">
+                    <h2>OUR <strong>MENTORSHIP OPTIONS</strong></h2>
+                    <p>Choose the level of support that best fits your academic and professional development needs</p>
+                </div>
+                <div class="row pricing-plans">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="price-plan">
+                            <div class="pricing-hdr">
+                                <h3>FREE SERVICES</h3>
+                                <cite>Basic Mentorship Support</cite>
+                            </div>
+                            <ul>
+                                <li>Initial consultation session</li>
+                                <li>Group workshops and webinars</li>
+                                <li>Resource library access</li>
+                                <li>Basic document review</li>
+                                <li>Online community access</li>
+                                <li>Monthly Q&A sessions</li>
+                            </ul>
+                            <a href="{% url 'contact' %}" class="btn-buy-now">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="price-plan premium">
+                            <div class="pricing-hdr">
+                                <h3>PREMIUM SERVICES</h3>
+                                <cite>Personalized Mentorship Solutions</cite>
+                            </div>
+                            <ul>
+                                <li>One-on-one mentorship sessions</li>
+                                <li>Comprehensive document analysis</li>
+                                <li>Tailored research guidance</li>
+                                <li>Advanced data analysis training</li>
+                                <li>Publication strategy planning</li>
+                                <li>Career advancement coaching</li>
+                            </ul>
+                            <a href="{% url 'contact' %}" class="btn-buy-now">Request Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grant Application Support -->
+        <div class="pricing-tagline grant-support">
+            <div class="container">
+                <div class="text-center">
+                    <h3>Looking for research mentorship through grant funding?</h3>
+                    <p>We assist research teams and academic institutions with grant applications to fund mentorship programs.</p>
+                    <div class="button-group">
+                        <a href="{% url 'contact' %}" class="btn-transparent">Request a Free Consultation</a>
+                        <a href="{% url 'faqs' %}" class="btn-transparent">Learn About Our Process</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 {% endblock %}
