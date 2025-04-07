@@ -3969,3 +3969,7 @@ div.column-2 .element-item .portfolio-info {
         padding: 10px;
     }
 }
+
+.about-item p {
+	margin-bottom: 25px;
+}
