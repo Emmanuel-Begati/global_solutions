@@ -3551,3 +3551,12 @@ div.column-2 .element-item .portfolio-info {
 	color: #fff
 }
 /********** DESKTOP CSS END ***********/
+.banner-text .tagline {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
