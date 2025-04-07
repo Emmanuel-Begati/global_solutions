@@ -3737,3 +3737,235 @@ div.column-2 .element-item .portfolio-info {
 .service-card ul li {
     margin-bottom: 5px;
 }
+
+/* Success Stories Section Styling */
+.success-stories-wrapper {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.story-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 0.3s ease;
+    /* height: 300px; */
+    overflow: hidden;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.story-card.horizontal {
+    display: flex;
+    height: auto;
+    min-height: 180px;
+}
+
+.story-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-card.horizontal .story-icon {
+    margin-bottom: 0;
+    margin-right: 20px;
+    flex: 0 0 60px;
+}
+
+.story-icon i {
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: #259ebc;
+    color: white;
+    box-shadow: 0 5px 15px rgba(37,158,188,0.3);
+}
+
+.story-card.horizontal .story-icon i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+}
+
+.story-content h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.story-content h3 .small {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+    margin-top: 5px;
+}
+
+.story-content p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.featured-stories {
+    margin-bottom: 50px;
+}
+
+/* Tabs Styling */
+.story-tabs-section {
+    margin-top: 30px;
+}
+
+.story-tabs {
+    border-bottom: 2px solid #259ebc;
+    margin-bottom: 30px;
+}
+
+.story-tabs li a {
+    border: none;
+    color: #555;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 0;
+    margin-right: 0;
+}
+
+.story-tabs li.active a,
+.story-tabs li.active a:hover,
+.story-tabs li.active a:focus {
+    color: white;
+    background-color: #259ebc;
+    border: none;
+    border-radius: 0;
+}
+
+.story-tabs li a:hover {
+    background-color: rgba(37,158,188,0.1);
+    border: none;
+}
+
+.tab-content {
+    padding: 20px 0;
+}
+
+/* Improved Mobile Responsiveness for Success Stories Section */
+@media (max-width: 991px) {
+    .success-stories-wrapper {
+        padding: 60px 0;
+    }
+    
+    .story-card {
+        height: auto;
+        min-height: auto;
+        padding: 20px;
+    }
+    
+    .featured-stories .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .featured-stories .col-md-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .story-tabs li a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .story-tabs-section .tab-content .row {
+        margin: 0 -10px;
+    }
+    
+    .story-tabs-section .tab-content .col-md-6 {
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .story-card.horizontal {
+        flex-direction: column;
+    }
+    
+    .story-card.horizontal .story-icon {
+        margin-right: 0;
+        margin-bottom: 20px;
+        flex: none;
+    }
+    
+    .story-icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 24px;
+    }
+    
+    .story-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+    
+    .story-tabs li {
+        flex: 0 0 50%;
+        margin-bottom: 2px;
+    }
+    
+    .story-tabs li a {
+        margin: 0;
+        border: none;
+        text-align: center;
+        padding: 8px 5px;
+        font-size: 12px;
+    }
+    
+    .tab-content .row {
+        margin: 0;
+    }
+    
+    .tab-content .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .success-stories-wrapper {
+        padding: 40px 0;
+    }
+    
+    .story-card {
+        padding: 15px;
+    }
+    
+    .story-content h3 {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    
+    .story-content h3 .small {
+        font-size: 12px;
+    }
+    
+    .story-tabs li {
+        flex: 0 0 100%;
+    }
+    
+    .story-tabs li a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

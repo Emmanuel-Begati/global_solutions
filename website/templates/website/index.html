@@ -23,6 +23,7 @@
                                 <div class="button-group">
                                     <a href="{% url 'services' %}" class="btn-color">Get Mentorship</a>
                                     <a href="#contact" class="btn-transparent">Book a Consultation</a>
+                                    <a href="{% url 'faqs' %}" class="btn-transparent">View FAQs</a>
                                 </div>
                             </div>
                         </div>
@@ -240,6 +241,58 @@
             </div>
         </div>
         <!-- Testimonials end -->
+        <!-- FAQ Quick Preview -->
+        <div class="faq-wrapper">
+            <div class="container">
+                <h2>FREQUENTLY <strong>ASKED QUESTIONS</strong></h2>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="panel-group" id="faq-preview">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#faq-preview" href="#faq1" class="">Who can benefit from Globewrite Solutions?</a>
+                                    </h4>
+                                </div>
+                                <div id="faq1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <p>Students, researchers, entrepreneurs, and professionals looking to improve their writing, data analysis, or job application skills.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#faq-preview" href="#faq2" class="collapsed">Do I need prior experience?</a>
+                                    </h4>
+                                </div>
+                                <div id="faq2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>No! We provide training for beginners, intermediate, and advanced learners.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#faq-preview" href="#faq3" class="collapsed">How much does it cost?</a>
+                                    </h4>
+                                </div>
+                                <div id="faq3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Basic mentorship is free! Advanced one-on-one coaching and certifications require a small fee.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center" style="margin-top: 30px;">
+                            <a href="{% url 'faqs' %}" class="btn-color">View All FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ Quick Preview end -->
         {% comment %} <!-- Our Clients -->
         <div class="our-clients-wrapper">
             <div class="container">
