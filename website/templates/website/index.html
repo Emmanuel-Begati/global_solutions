@@ -76,36 +76,63 @@
         </div>
         <!-- Who we are end -->
         <!-- Services -->
-            <div class="overview-wrapper">
-                <div class="container">
-                    <h2>OUR SERVICES</h2>
-                        {% comment %} <p>We offer specialized mentorship and training to help you excel in your academic and professional endeavors.</p> {% endcomment %}
-                    <div class="row">
-                        <div class="col-sm-3 overview-block"> 
-                            <i class="icons"><span aria-hidden="true" class="icon-book-open"></span></i>
-                            <h3>Research Paper Guidance</h3>
-                            <p>Literature review assistance, thesis coaching, and citation support (APA, MLA, Chicago, Harvard).</p>
-                        </div>
-                        <div class="col-sm-3 overview-block"> 
-                            <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
-                            <h3>Data Analysis & Tools</h3>
-                            <p>SPSS, Stata, R, and Python training, data visualization, and qualitative/quantitative analysis.</p>
-                        </div>
-                        <div class="col-sm-3 overview-block"> 
-                            <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
-                            <h3>Job & Scholarship Support</h3>
-                            <p>CV writing, scholarship proposals, Statement of Purpose coaching, and mock interviews.</p>
-                        </div>
-                        <div class="col-sm-3 overview-block"> 
-                            <i class="icons"><span aria-hidden="true" class="icon-pencil"></span></i>
-                            <h3>Business & Creative Writing</h3>
-                            <p>Business proposals, grant applications, professional emails, and social media content creation.</p>
-                        </div>
+        <div class="overview-wrapper">
+            <div class="container">
+                <h2>OUR SERVICES</h2>
+                <div class="row">
+                    <div class="col-sm-4 overview-block"> 
+                        <i class="icons"><span aria-hidden="true" class="icon-book-open"></span></i>
+                        <h3>Academic Writing & Research Training</h3>
+                        <ul>
+                            <li>Research paper guidance</li>
+                            <li>Literature review assistance</li>
+                            <li>Thesis and dissertation coaching</li>
+                            <li>Citation and referencing (APA, MLA, Chicago, Harvard)</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 overview-block"> 
+                        <i class="icons"><span aria-hidden="true" class="fa fa-line-chart"></span></i>
+                        <h3>Data Analysis & Statistical Tools Training</h3>
+                        <ul>
+                            <li>SPSS, Stata, R, and Python training</li>
+                            <li>Data visualization and interpretation</li>
+                            <li>Quantitative and qualitative data analysis</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 overview-block"> 
+                        <i class="icons"><span aria-hidden="true" class="icon-briefcase"></span></i>
+                        <h3>Job & Scholarship Application Support</h3>
+                        <ul>
+                            <li>CV and cover letter writing</li>
+                            <li>Scholarship and grant proposal writing</li>
+                            <li>Statement of Purpose (SOP) coaching</li>
+                            <li>Mock interviews and career mentorship</li>
+                        </ul>
                     </div>
                 </div>
-                <a href="{% url 'services' %}" class="learn-more-link">Learn more</a>
-
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-sm-4 col-sm-offset-2 overview-block"> 
+                        <i class="icons"><span aria-hidden="true" class="fa fa-building"></span></i>
+                        <h3>Business & General Writing Services</h3>
+                        <ul>
+                            <li>Business proposal writing</li>
+                            <li>Grant applications</li>
+                            <li>Professional email writing</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 overview-block"> 
+                        <i class="icons"><span aria-hidden="true" class="icon-pencil"></span></i>
+                        <h3>Creative Writing & Media Training</h3>
+                        <ul>
+                            <li>Storytelling and scriptwriting</li>
+                            <li>Social media content creation</li>
+                            <li>Photography and visual storytelling</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <a href="{% url 'services' %}" class="learn-more-link">Learn more</a>
+        </div>
         <!-- Services end-->
         <!-- Notes and Skills -->
             <div class="notes-and-skills">
