@@ -89,7 +89,7 @@ body {
 	float: left;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	padding: 26px 0;
+	padding: 6px 7px;
 }
 
 .header.fixed .logo {
@@ -3609,4 +3609,131 @@ div.column-2 .element-item .portfolio-info {
     font-weight: 300;
     margin: 0;
     text-align: left;
+}
+
+/* FAQ Section Styling */
+.panel-title a {
+    display: block;
+    padding: 18px 30px;
+    position: relative;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.panel-title a:after {
+    content: "-";
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 23px;
+    text-align: center;
+    width: 25px;
+    background: #259ebc;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+.panel-title a.collapsed:after {
+    content: "+"
+}
+
+.panel-title a i.fa-question-circle {
+    color: #259ebc;
+    margin-right: 10px;
+}
+
+.panel-title a:hover {
+    color: #259ebc;
+}
+
+.panel-body {
+    padding: 20px 30px 30px;
+}
+
+.panel-body .lead {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Service Items */
+.service-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 230px;
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+/* Process Steps */
+.process-step {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.process-icon {
+    position: relative;
+    margin-bottom: 15px;
+    color: #259ebc;
+}
+
+.process-icon span {
+    position: absolute;
+    top: -5px;
+    right: calc(50% - 25px);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #259ebc;
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+/* Service Cards */
+.service-cards {
+    margin-top: 30px;
+}
+
+.service-card {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    color: #259ebc;
+    margin-bottom: 15px;
+}
+
+.service-card h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.service-card ul {
+    padding-left: 20px;
+}
+
+.service-card ul li {
+    margin-bottom: 5px;
 }

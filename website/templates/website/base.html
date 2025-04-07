@@ -42,26 +42,29 @@
                     <img src="{% static 'website/images/logo.png' %}" alt="Khamu"> Globewrite Solutions</a>
             </div>
             <nav class="topnav">
-                <div class="collapse navbar-collapse navbar-right" id="topnav">
-                    <ul>
-                        <li class="active">
-                            <a href="{% url 'home' %}">Home</a>
-                        </li>
-                        <li>
-                            <a href="{% url 'about' %}">About</a>
-                        </li>
-                        <li>
-                            <a href="{% url 'services' %}" id="services-link">Services</a>
-                        </li>
-                        <li>
-                            <a href="{% url 'contact' %}" id="contact-link">Contact</a>
-                        </li>
-                        {% comment %} <li>
-                            <a href="javascript:void(0);" id="search"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        </li> {% endcomment %}
-                    </ul>
-                </div>
-            </nav>
+				<div class="collapse navbar-collapse navbar-right" id="topnav">
+					<ul>
+						<li {% if 'home' in request.path %}class="active"{% endif %}>
+							<a href="{% url 'home' %}">Home</a>
+						</li>
+						<li {% if 'about' in request.path %}class="active"{% endif %}>
+							<a href="{% url 'about' %}">About</a>
+						</li>
+						<li {% if 'services' in request.path %}class="active"{% endif %}>
+							<a href="{% url 'services' %}" id="services-link">Services</a>
+						</li>
+						<li {% if 'contact' in request.path %}class="active"{% endif %}>
+							<a href="{% url 'contact' %}" id="contact-link">Contact</a>
+						</li>
+						<li {% if 'faqs' in request.path %}class="active"{% endif %}>
+							<a href="{% url 'faqs' %}" id="faqs-link">FAQs</a>
+						</li>
+						{% comment %} <li>
+							<a href="javascript:void(0);" id="search"><i class="fa fa-search" aria-hidden="true"></i></a>
+						</li> {% endcomment %}
+					</ul>
+				</div>
+			</nav>
             {% comment %} <div class="search-form">
                 <a href="javascript:void(0);" id="close">
                     <img src="{% static 'website/images/close-icon.png' %}" alt="close">

@@ -22,3 +22,6 @@ def team(request):
 
 def base(request):
     return render(request, 'website/base.html')
+
+def faqs(request):
+    return render(request, 'website/faqs.html')
