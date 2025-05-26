@@ -375,3 +375,28 @@ var searchHtml = jQuery('<a href="javascript:void(0);" id="searchToggle" class="
 		});
     });
 	};
+
+// Smooth scrolling for hash links
+    $(document).ready(function() {
+        // Check if there's a hash in the URL
+        if(window.location.hash) {
+            var hash = window.location.hash;
+            
+            // Wait a moment for the page to fully load
+            setTimeout(function() {
+                // Activate the tab corresponding to the hash
+                $('a[href="' + hash + '"]').tab('show');
+                
+                // Smooth scroll to the section
+                $('html, body').animate({
+                    scrollTop: $('#success-stories').offset().top - 80
+                }, 800);
+            }, 200);
+        }
+        
+        // Also handle direct clicks on tab links
+        $('.story-tabs a').on('click', function(e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+    });
