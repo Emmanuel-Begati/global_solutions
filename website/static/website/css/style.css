@@ -3672,7 +3672,7 @@ div.column-2 .element-item .portfolio-info {
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    height: 230px;
+    height: auto;
     transition: all 0.3s ease;
 }
 
