@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wf13ca#_5%p(5b=6jnqu+6w#@^n_#0p7hc0=6+tap5ioit3jnv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['global-solutions-rbia.onrender.com', 'localhost', '127.0.0.1', '161.97.107.73']
+ALLOWED_HOSTS = ['global-solutions-rbia.onrender.com', 'localhost', '127.0.0.1', '161.97.107.73', 'www.globewrites.org']
 
 # Application definition
 
@@ -115,14 +115,25 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
+import os 
+STATIC_URL = "static/"
+STATIC_ROOT = os.path.join("", "static")
+# STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "static"),
+#]
 
-STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'  # This is the new line you need to add
+# WhiteNoise configuration for static files
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-# Add this to your settings.py file
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# Browser caching settings
+# Add far-future expiration headers for static files
+WHITENOISE_MAX_AGE = 31536000  # 1 year in seconds
+
+# CORS settings
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
